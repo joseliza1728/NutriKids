@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentos.ConfiguracionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/frg_conf_lbl_titulo"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/frg_conf_txt_correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_margin="10dp"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:hint="@string/frg_conf_txt_correo"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/frg_conf_txt_clave_anterior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/frg_conf_txt_clave_anterior"
+                android:inputType="textPassword"
+                android:layout_margin="10dp"
+                android:maxLength="25"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/frg_conf_txt_clave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/frg_conf_txt_clave"
+                android:inputType="textPassword"
+                android:layout_margin="10dp"
+                android:maxLength="25"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/frg_conf_btn_actualizar"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:text="@string/frg_conf_btn_actualizar"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/frg_conf_btn_cerrarSesion"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:text="@string/frg_conf_btn_cerrarSesion"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

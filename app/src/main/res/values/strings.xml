@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">NutriKids</string>
+
+    <!--Activity Inicio-->
+    <string name="ini_lbl_mensaje">Iniciando Aplicación</string>
+    <!--Activity Login-->
+    <string name="log_txt_correo">Correo</string>
+    <string name="log_txt_clave">Clave</string>
+    <string name="log_chk_recordar">Recordar</string>
+    <string name="log_btn_ingresar">Ingresar</string>
+    <string name="log_btn_salir">Salir</string>
+    <string name="log_lbl_registrate">¡ Registrate aquí !</string>
+    <!--Activity Registro-->
+    <string name="reg_lbl_registro">Registro de Usuario</string>
+    <string name="reg_txt_nombre">Nombre</string>
+    <string name="reg_txt_apellido">Apellido</string>
+    <string name="reg_lbl_sexo">Sexo:</string>
+    <string name="reg_rb_ND">No definido</string>
+    <string name="reg_rb_masculino">Masculino</string>
+    <string name="reg_rb_femenino">Femenino</string>
+    <string name="reg_txt_correo">Correo</string>
+    <string name="reg_txt_clave">Clave</string>
+    <string name="reg_txt_clave_confirmar">Confirmar Clave</string>
+    <string name="reg_chk_terminos">Acepta términos y condiciones</string>
+    <string name="reg_btn_registrar">Registrar</string>
+    <string name="reg_btn_cancelar">Cancelar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Activity Bienvenida-->
+    <string name="bie_lbl_saludo">Bienvenido {nombre}</string>
+
+
+    <!--Fragmento Agregar Receta-->
+    <string name="frg_agregarRece_lbl_titulo">Agregar Receta Nueva</string>
+    <string name="frg_agregarRece_txt_nombre">Nombre</string>
+    <string name="frg_agregarRece_txt_descripcion">Descripción</string>
+    <string name="frg_agregarRece_txt_ingredientes">Ingredientes</string>
+    <string name="frg_agregarRece_txt_tiempoCocinar">Tiempo a cocinar</string>
+    <string name="frg_agregarRece_txt_edadRecomendada">Edad recomendada</string>
+    <string name="frg_agregarRece_txt_preparacion">Preparación</string>
+    <string name="frg_agregarRece_btn_agregar">Agregar</string>
+    <string name="frg_agregarRece_btn_cancelar">Cancelar</string>
+
+    <!--Fragmento Configuración-->
+    <string name="frg_conf_lbl_titulo">Configuración</string>
+    <string name="frg_conf_txt_correo">Correo</string>
+    <string name="frg_conf_txt_clave_anterior">Clave anterior</string>
+    <string name="frg_conf_txt_clave">Clave nueva</string>
+    <string name="frg_conf_btn_actualizar">Actualizar</string>
+    <string name="frg_conf_btn_cerrarSesion">Cerrar sesión</string>
+
+
+    <string name="frag_lbl_acercaDe">NutriKids es la solución para mejorar la alimentación de los mas pequeños, gracias a nuestros productos, los niños pueden comer saludable y divertirse a la ves. ¡Que esperas! echa un vistazo a nuestro menú y pide la mejor comida saludable y divertida para tu pequeño heroe</string>
+    <string name="frag_acercade_btn_volver">Volver</string>
+    <string name="frg_agregarRece_btn_subirimg">Subir Imagen</string>
+    <string name="frag_list_recetaTT">Listado de Recetas</string>
+    <string name="lbl_receta_titulo_comida">Titulo de Recetas</string>
+    <string name="lbl_receta_descripcion">Descripcion</string>
+
+
+    <string name="frg_editRece_lbl_titulo">Editar Receta</string>
+
+
+    <string name="frg_editRece_txt_nombre">Nombre</string>
+    <string name="frg_editRece_txt_descripcion">Descripcion</string>
+    <string name="frg_editRece_txt_ingredientes">Ingrediente</string>
+    <string name="frg_editRece_txt_preparacion">Preparacion</string>
+    <string name="frg_edi_btn_actualizar">Actualizar</string>
+    <string name="frg_edi_btn_eliminar">Eliminar</string>
+    <string name="frg_edi_btn_regresar">Regresar</string>
+    <string name="title_activity_vista">VistaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="vista_btn_editar">Editar</string>
+    <string name="vista_btn_regresar">Cancelar</string>
+    <string name="vista_btn_eliminar">Eliminar</string>
+    <string name="vista_btn_subirimg">Subir Nueva Foto</string>
+
+
+
+</resources>
